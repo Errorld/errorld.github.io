@@ -16,7 +16,7 @@ description: 快速简洁
 然后克隆到本地
 `$ git clone git@github.com:user/user.github.io.git
 
-##3. 修改与发布
+##2. 修改与发布
 
 ###1. 修改
 如果不想折腾的，直接修改_config.yml里的相关内容为自己的信息就好了
@@ -46,6 +46,7 @@ content
 `$ git push`
 
 ##3. 本地安装测试环境
+
 ###1. ruby+gem
 
 1. RVM
