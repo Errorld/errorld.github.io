@@ -4,7 +4,7 @@ header-img: "img/facebook.jpg"
 tagline: "cn"
 description: "Errorld|Wrold"
 baseurl: ""
-url: "http://cnfeat"
+url: "http://errorld.com"
 
 # About/contact
 owner:
@@ -17,10 +17,10 @@ gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.png
 
 douban_username:  cnfeat
-twitter_username: feat
+twitter_username:
 github_username: errorld
 facebook_username:
-weibo_username: cnfeat
+weibo_username:
 zhihu_username: wroworld
 
 # Build settings
