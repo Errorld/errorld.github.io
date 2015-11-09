@@ -8,6 +8,8 @@ description: 快速简洁
 
 
 ---
+
+
 ##1. 克隆一个样本
 
 不想从头设置就去别人的 JEKYLL-BLOG FORK一份  
@@ -27,20 +29,19 @@ description: 快速简洁
 1. 新建
 在_post下新建yyyy-mm-dd-title.md
 2. 编辑
-进行编辑，开头加上
 
-```
----
-layout: post
-title: title
-date: yyyy-mm-dd
-categories: blog
-tags: [tag1,tag2]
-description: description
+进行编辑，开头加上  
 
----
-content
-```
+    ---
+    layout: post
+    title: title
+    date: yyyy-mm-dd
+    categories: blog
+    tags: [tag1,tag2]
+    description: description
+
+    content
+    ---
 
 3. 提交
 `$ git add *`
@@ -60,7 +61,9 @@ content
 `$ sudo apt-get install nodejs`
 4. 换源
 `$ gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/`
-5. bundle
+5. 更新
+`$ gem update --system`
+6. bundle
 `gem install bundle`
 
 ###2. jekyll
