@@ -12,16 +12,16 @@ description: 快速简洁
 
 ##1. 克隆一个样本
 
-不想从头设置就去别人的 JEKYLL-BLOG FORK一份  
-比如我的[github.com/errorld/errorld.github.io](http://github.com/errorld/errorld.github.io)  
-把名字改为user.github.io  
+不想从头设置就去别人的 JEKYLL-BLOG FORK一份
+比如我的[github.com/errorld/errorld.github.io](http://github.com/errorld/errorld.github.io)
+把名字改为user.github.io
 然后克隆到本地
-`$ git clone git@github.com:user/user.github.io.git
+`$ git clone git@github.com:user/user.github.io.git`
 
 ##2. 修改与发布
 
 ###1. 修改
-如果不想折腾的，直接修改_config.yml里的相关内容为自己的信息就好了  
+如果不想折腾的，直接修改_config.yml里的相关内容为自己的信息就好了
 要改模板也很简单，会点JINJIA就可以
 
 ###2. 发布
@@ -30,7 +30,7 @@ description: 快速简洁
 在_post下新建yyyy-mm-dd-title.md
 2. 编辑
 
-进行编辑，开头加上  
+进行编辑，开头加上
 
     ---
     layout: post
@@ -54,7 +54,7 @@ description: 快速简洁
 
 1. RVM
 `$ curl -L https://get.rvm.io | bash -s stable$ curl -L https://get.rvm.io | bash -s stable`
-`$ source ~/.rvm/scripts/rvm`  
+`$ source ~/.rvm/scripts/rvm`
 2. ruby
 `$ rvm install 2.1.2`
 3. nodejs
@@ -67,6 +67,7 @@ description: 快速简洁
 `gem install bundle`
 
 ###2. jekyll
+
 `$ gem install git-pages`
 
 ## Plus
