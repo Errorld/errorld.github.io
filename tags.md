@@ -1,23 +1,19 @@
 ---
 layout: page
 title: "Tags"
-description: "哈哈，你找到了我的文章基因库"  
+description: "As you can see"  
 header-img: "img/semantic.jpg"  
 ---
 
-##本页使用方法
+> #### Touch me if you like
 
-1. 在下面选一个你喜欢的词
-2. 点击它
-3. 相关的文章会「唰」地一声跳到页面顶端
-4. 马上试试？
 
-##基因列表
+##List
 
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
-<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}" >{{ tag[0] }}</a>
 {% endfor %}
 </div>
 
