@@ -62,6 +62,7 @@ content
 
 ###2. jekyll
 `$ gem install git-pages`
+
 ## Plus
 如果模板不需要更改，以后只需要执行步骤2就能发布新博文。
 
